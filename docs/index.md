@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Convolutional Neural Network Accelerator
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 

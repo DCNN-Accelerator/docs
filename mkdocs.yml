@@ -2,4 +2,9 @@ site_name: DCNN Accelerator
 nav:
     - Home: index.md
     - About: about.md
-theme: readthedocs
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust

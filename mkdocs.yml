@@ -8,4 +8,4 @@ theme:
     hljs_languages:
         - yaml
         - rust
-#test
+extra_css: [extra.css]

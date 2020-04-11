@@ -1,1 +1,1 @@
-## Build Your Own DCNN
+## Build Your Own Deep Convolutional Neural Network Accelerator

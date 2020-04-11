@@ -1,7 +1,10 @@
 site_name: DCNN Accelerator
 nav:
     - Home: index.md
+    - Software: software.md
+    - Hardware: hardware.md
     - About: about.md
+
 theme:
     name: readthedocs
     highlightjs: true

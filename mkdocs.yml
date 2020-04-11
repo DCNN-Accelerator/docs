@@ -3,6 +3,7 @@ nav:
     - Home: index.md
     - Software: software.md
     - Hardware: hardware.md
+    - Build Your Own: build your own.md
     - About: about.md
 
 theme:

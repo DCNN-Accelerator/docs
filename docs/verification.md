@@ -1,6 +1,6 @@
 # Verification
 
-The following outlines software specifications, block diagrams, pseudo code and important results and analysis for the project.
+The following outlines verification of the software-hardware emulation.
 
 
 # Code can start below in this format: 

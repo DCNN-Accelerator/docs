@@ -3,13 +3,15 @@
 The following outlines software specifications, block diagrams, pseudo code and important results and analysis for the project.
 
 
-# Code can start below in this format: 
+## Preprocessors
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-        
+## Im_load_stream
+
+This script takes in the image and kernel, converting to fixed point (originally floating point) sends the data to FPGA via Powershell
+
+
+##Serial Interface
+![Verification](https://i.imgur.com/TWgfZKo.png)&nbsp;
 
 ### Project Website
 Check out our website [here][website] for more information about our project.

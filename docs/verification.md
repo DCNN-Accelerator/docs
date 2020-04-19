@@ -21,6 +21,8 @@ of our FPGA Convolution algorithm to perform image filtering.  The results are v
 
 For thorough testing, we loaded in 1000 images from the CIFAR-10 image dataset.
 
+###Import Libraries
+![Verification](https://i.imgur.com/duYINvl.png)&nbsp;
 
 ### Conversion to Greyscale
 The user provides the script with dimensions and metrics, it takes in an image, which is converted to greyscale.

@@ -131,6 +131,8 @@
               
                 <h1 id="verification">Verification</h1>
 <p>The following outlines verification of the software-hardware emulation. Hardware emulation is a tool for hardware/software co-verification and testing the integration of hardware and software.</p>
+<p><img alt="Verification" src="https://i.imgur.com/2U2usrR.jpg" /></p>
+<p>Baby Yoda was the first image successfully tested.</p>
 <h2 id="emulation">Emulation</h2>
 <p>Originally the emulation that was built had packaging issues, so a more efficient method was created in python.</p>
 <p>This design offers users a python interface; simply give the PC an image and kernel size, MATLAB is called. The output is acquired from MATLAB and the actual value can be calculated.</p>
@@ -151,7 +153,7 @@ of our FPGA Convolution algorithm to perform image filtering.  The results are v
 <p>The first lines generates the edge detection kernel. The image and array is saved to text files. Finally, the image and kernel arrays are loaded into MATLAB.</p>
 <p><img alt="Verification" src="https://i.imgur.com/XoVBljG.png" />&nbsp;</p>
 <h3 id="test-the-fpga-convolution-algorithm">Test the FPGA Convolution Algorithm</h3>
-<p>The script will call FPGA_Runner.m from MATLAB to test the algorithm.</p>
+<p>The script will call <a href="fpga">FPGA_Runner.m</a> from MATLAB to test the algorithm.</p>
 <p><img alt="Verification" src="https://i.imgur.com/1sljins.png" />&nbsp;</p>
 <h3 id="passfail-test">Pass/Fail Test</h3>
 <p>"True" when the convolution passes, and "False" when the convolution from MATLAB does not match the SciPy convolution.</p>

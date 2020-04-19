@@ -18,23 +18,29 @@ of our FPGA Convolution algorithm to perform image filtering.  The results are v
 
 For thorough testing, we loaded in 1000 images from the CIFAR-10 image dataset.
 
+
 ### Conversion to Greyscale
 The user provides the script with dimensions and metrics, it takes in an image, which is converted to greyscale.
 
-![Verification](https://i.imgur.com/8aw60lC.jpg)
+![Verification](https://i.imgur.com/8aw60lC.jpg)&nbsp;
 
 ### Verify with MATLAB Output
 Computes the ground truth correlation and checks the MATLAB output for similarity based on a tolerance.
 
-![Verification](https://i.imgur.com/akozTpc.jpg)
+![Verification](https://i.imgur.com/akozTpc.jpg)&nbsp;
 
 ### Load Image, Preprocesses and Zero Pads
-![Verification](https://i.imgur.com/8tWmQsd.jpg)
+![Verification](https://i.imgur.com/8tWmQsd.jpg)&nbsp;
 
 ### Exporting to MATLAB
 The first lines generates the edge detection kernel. The image and array is saved to text files. Finally, the image and kernel arrays are loaded into MATLAB.
 
-![Verification](https://i.imgur.com/XoVBljG.png)
+![Verification](https://i.imgur.com/XoVBljG.png)&nbsp;
+
+### Test the FPGA Convolution Algorithm
+The script will call FPGA_Runner.m from MATLAB to test the algorithm.
+
+![Verification](https://i.imgur.com/1sljins.png)&nbsp;
 
 ### Pass/Fail Test
 "True" when the convolution passes, and "False" when the convolution from MATLAB does not match the SciPy convolution.

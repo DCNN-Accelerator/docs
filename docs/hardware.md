@@ -1,6 +1,6 @@
 # Hardware Architecture
 
-The following outlines hardware specifications, block diagrams, pseudo code and important results and analysis for the project.
+The following outlines hardware specifications, block diagrams, pseudo code along with the results and analysis of the design.
 
 ![Verification](https://i.imgur.com/UFqZOds.gif[/img)
 

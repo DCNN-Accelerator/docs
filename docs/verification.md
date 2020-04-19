@@ -4,7 +4,8 @@ The following outlines verification of the software-hardware emulation.
 
 
 # Emulation
-![alt text](https://github.com/DCNN-Accelerator/docs/blob/master/load.png "load")
+
+![Verification](https://i.imgur.com/RLpDT2X.jpg)
 
 Originally the emulation that was built had packaging issues, so a more efficient method was created in python.
 

@@ -23,7 +23,7 @@ For thorough testing, we will be loading in 1000 images from the CIFAR-10 image 
 
 ##Conversion to Greyscale
 ![Verification](https://i.imgur.com/8aw60lC.jpg)
-The user provides the script with dimensions, it takes in an image, which is converted to greyscale.
+The user provides the script with dimensions and metrics, it takes in an image, which is converted to greyscale.
 
 ##Verify with MATLAB Output
 ![Verification](https://i.imgur.com/akozTpc.jpg)

@@ -2,10 +2,10 @@
 
 The following outlines hardware specifications, block diagrams, pseudo code and important results and analysis for the project.
 
+![Verification](https://i.imgur.com/UFqZOds.gif[/img)
 
 
-
-# Code can start below in this format: 
+# Code can start below in this format:
 
     mkdocs.yml    # The configuration file.
     docs/

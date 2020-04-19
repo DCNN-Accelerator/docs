@@ -76,6 +76,9 @@
 
     <li class="toctree-l2"><a href="#emulation">Emulation</a></li>
     
+
+    <li class="toctree-l2"><a href="#conv_tester">Conv_tester</a></li>
+    
         <ul>
         
             <li><a class="toctree-l3" href="#project-website">Project Website</a></li>
@@ -131,12 +134,17 @@
                 <h1 id="verification">Verification</h1>
 <p>The following outlines verification of the software-hardware emulation.</p>
 <h1 id="emulation">Emulation</h1>
-<p><img alt="alt text" src="https://github.com/DCNN-Accelerator/docs/blob/master/load.jpg" title="load" /></p>
+<p><img alt="Verification" src="https://i.imgur.com/RLpDT2X.jpg" /></p>
+<p>Originally the emulation that was built had packaging issues, so a more efficient method was created in python.</p>
+<p>This design offers users a python interface; simply give the PC an image and kernel size, MATLAB is called. The output is acquired from MATLAB and the actual value can be calculated.</p>
 <pre><code>mkdocs.yml    # The configuration file.
 docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
 </code></pre>
+<h1 id="conv_tester">Conv_tester</h1>
+<p>Originally, this was written in MATLAB; however, it was rewritten in python.</p>
+<p>The code takes an image and kernel, preprocesses it to be compatible with MATLAB, with zero padding. The image can be whatever size and all of that in python, sends image and kernel to MATLAB. The python interface calls the fpga and removes zero padding. The system will check if it matches a true convolution; if it outputs valid the test passed, while invalid indicates that the test failed. Note that it failed at any of the images it would stop the whole loop.</p>
 <h3 id="project-website">Project Website</h3>
 <p>Check out our website <a href="https://kierajcullen.github.io/-dcnn-.github.io/">here</a> for more information about our project.</p>
               

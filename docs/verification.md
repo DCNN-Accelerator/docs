@@ -1,6 +1,6 @@
 # Verification
 
-The following outlines verification of the software-hardware emulation. Hardware emulation is a tool for hardware/software co-verification and testing the integration of hardware and software.
+The following outlines verification of the software-hardware emulation. Hardware emulation is a tool for hardware/software co-verification and integration testing.
 
 ![Verification](https://i.imgur.com/2U2usrR.jpg)
 

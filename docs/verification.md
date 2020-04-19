@@ -2,6 +2,9 @@
 
 The following outlines verification of the software-hardware emulation. Hardware emulation is a tool for hardware/software co-verification and testing the integration of hardware and software.
 
+![Verification](https://i.imgur.com/2U2usrR.jpg)
+
+Baby Yoda was the first image successfully tested.
 
 ## Emulation
 
@@ -38,9 +41,10 @@ The first lines generates the edge detection kernel. The image and array is save
 ![Verification](https://i.imgur.com/XoVBljG.png)&nbsp;
 
 ### Test the FPGA Convolution Algorithm
-The script will call FPGA_Runner.m from MATLAB to test the algorithm.
+The script will call [FPGA_Runner.m](fpga) from MATLAB to test the algorithm.
 
 ![Verification](https://i.imgur.com/1sljins.png)&nbsp;
+[fpga]: https://github.com/DCNN-Accelerator/verification/blob/master/emulation/util/FPGA_Runner.m
 
 ### Pass/Fail Test
 "True" when the convolution passes, and "False" when the convolution from MATLAB does not match the SciPy convolution.
@@ -49,7 +53,7 @@ The script will call FPGA_Runner.m from MATLAB to test the algorithm.
 
 The system will check if it matches a true convolution; if it outputs valid the test passed, while invalid indicates that the test failed. Note that if the script fails at any of the images, the loop will stop.
 
+
 ## Project Website
 Check out our website [here][website] for more information about our project.
-
 [website]: https://kierajcullen.github.io/-dcnn-.github.io/

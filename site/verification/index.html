@@ -131,6 +131,8 @@
               
                 <h1 id="verification">Verification</h1>
 <p>The following outlines verification of the software-hardware emulation. Hardware emulation is a tool for hardware/software co-verification and testing the integration of hardware and software.</p>
+<p><img alt="Verification" src="https://i.imgur.com/2U2usrR.jpg" /></p>
+<p>Baby Yoda was the first image successfully tested.</p>
 <h2 id="emulation">Emulation</h2>
 <p>Originally the emulation that was built had packaging issues, so a more efficient method was created in python.</p>
 <p>This design offers users a python interface; simply give the PC an image and kernel size, MATLAB is called. The output is acquired from MATLAB and the actual value can be calculated.</p>
@@ -141,15 +143,18 @@ of our FPGA Convolution algorithm to perform image filtering.  The results are v
 <p>For thorough testing, we loaded in 1000 images from the CIFAR-10 image dataset.</p>
 <h3 id="conversion-to-greyscale">Conversion to Greyscale</h3>
 <p>The user provides the script with dimensions and metrics, it takes in an image, which is converted to greyscale.</p>
-<p><img alt="Verification" src="https://i.imgur.com/8aw60lC.jpg" /></p>
+<p><img alt="Verification" src="https://i.imgur.com/8aw60lC.jpg" />&nbsp;</p>
 <h3 id="verify-with-matlab-output">Verify with MATLAB Output</h3>
 <p>Computes the ground truth correlation and checks the MATLAB output for similarity based on a tolerance.</p>
-<p><img alt="Verification" src="https://i.imgur.com/akozTpc.jpg" /></p>
+<p><img alt="Verification" src="https://i.imgur.com/akozTpc.jpg" />&nbsp;</p>
 <h3 id="load-image-preprocesses-and-zero-pads">Load Image, Preprocesses and Zero Pads</h3>
-<p><img alt="Verification" src="https://i.imgur.com/8tWmQsd.jpg" /></p>
+<p><img alt="Verification" src="https://i.imgur.com/8tWmQsd.jpg" />&nbsp;</p>
 <h3 id="exporting-to-matlab">Exporting to MATLAB</h3>
 <p>The first lines generates the edge detection kernel. The image and array is saved to text files. Finally, the image and kernel arrays are loaded into MATLAB.</p>
-<p><img alt="Verification" src="https://i.imgur.com/XoVBljG.png" /></p>
+<p><img alt="Verification" src="https://i.imgur.com/XoVBljG.png" />&nbsp;</p>
+<h3 id="test-the-fpga-convolution-algorithm">Test the FPGA Convolution Algorithm</h3>
+<p>The script will call <a href="fpga">FPGA_Runner.m</a> from MATLAB to test the algorithm.</p>
+<p><img alt="Verification" src="https://i.imgur.com/1sljins.png" />&nbsp;</p>
 <h3 id="passfail-test">Pass/Fail Test</h3>
 <p>"True" when the convolution passes, and "False" when the convolution from MATLAB does not match the SciPy convolution.</p>
 <p><img alt="Verification" src="https://i.imgur.com/p5gtsmQ.png" /></p>

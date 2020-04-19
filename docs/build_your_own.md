@@ -1,5 +1,5 @@
-## Build Your Own Deep Convolutional Neural Network Accelerator
-The following document describes how to get started and build your own DCNN.
+# Build Your Own DCNN
+The following document describes how to get started and build your own deep learning convolutional neural network.
 
 ## Step 1
 

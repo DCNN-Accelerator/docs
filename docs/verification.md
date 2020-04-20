@@ -4,7 +4,7 @@ The following outlines verification of the software-hardware emulation. Hardware
 
 ![Verification](https://i.imgur.com/jZEoaMi.png)
 
-Baby Yoda was the first image successfully tested (Was this 512x512 dimensions, and what are the other dimensions)
+Baby Yoda was the first image successfully tested (using 512x512 dimensions).
 
 ## Emulation
 

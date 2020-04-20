@@ -2,17 +2,19 @@
 
 The following outlines software specifications, block diagrams, pseudo code and important results and analysis for the project.
 
-## Software specifications
+## Software Specifications
 
 | Item | Value |
 | -------------------- | ----------- |
 | Input image filetype | All OpenCV() supported (.jpg, .png, etc) |
 | Input kernel data filetype | .csv file |
 | Output data filetype | .jpg image |
-| Supported OS | Linux |
+| Supported OS | Windows |
 
 
 ## Preprocessors
+
+Discuss Preprocessors
 
 ## Im_load_stream
 

@@ -3,6 +3,11 @@
 This document describes the architecture and implementation for an end-to-end 2D convolution acceleration system, targeting applications such as image filtering and deep convolutional neural networks. The goal is to make our work and design understandable for anyone.
 
 
+## Project Goals
+1. Create a system for acceleration of the convolution operation: Interfaced to a PC workstation
+2. Theoretically faster than PC alone
+3. Serves as proof of concept using cheap FPGAs
+
 
 ## Project Overview
 

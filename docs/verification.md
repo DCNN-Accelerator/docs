@@ -45,8 +45,10 @@ The first lines generates the edge detection kernel. The image and array is save
 ### Test the FPGA Convolution Algorithm
 The script will call [FPGA_Runner.m](fpga) from MATLAB to test the algorithm.
 
-![Verification](https://i.imgur.com/1sljins.png)&nbsp;
 [fpga]: https://github.com/DCNN-Accelerator/verification/blob/master/emulation/util/FPGA_Runner.m
+
+![Verification](https://i.imgur.com/1sljins.png)&nbsp;
+
 
 ### Pass/Fail Test
 "True" when the convolution passes, and "False" when the convolution from MATLAB does not match the SciPy convolution.

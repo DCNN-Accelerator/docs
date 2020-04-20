@@ -2,9 +2,9 @@
 
 The following outlines verification of the software-hardware emulation. Hardware emulation is a tool for hardware/software co-verification and integration testing.
 
-![Verification](https://i.imgur.com/2U2usrR.jpg)
+![Verification](https://i.imgur.com/jZEoaMi.png)
 
-Baby Yoda was the first image successfully tested.
+Baby Yoda was the first image successfully tested (Was this 512x512 dimensions, and what are the other dimensions)
 
 ## Emulation
 

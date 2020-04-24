@@ -4,6 +4,15 @@ The following outlines hardware specifications, block diagrams, pseudo code alon
 
 ![Verification](https://i.imgur.com/UFqZOds.gif[/img)
 
+## Hardware Specifications
+
+| Item | Value |
+| -------------------- | ----------- |
+| Data Input Rate | 100 kBps |
+| Data Output Rate | 100 kBps |
+| Baud Rate | 1 Mbps |
+| Data Transfer Interface | UART over USB |
+
 
 # Code can start below in this format:
 

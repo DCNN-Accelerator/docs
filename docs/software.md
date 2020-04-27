@@ -2,7 +2,6 @@
 
 The following outlines software specifications, block diagrams, pseudo code and important results and analysis for the project.
 
-![Verification](https://i.imgur.com/6aIxdKL.jpg)&nbsp;
 
 ## Software Specifications
 

@@ -8,6 +8,10 @@ This document describes the architecture and implementation for an end-to-end 2D
 2. Theoretically faster than PC alone
 3. Serves as proof of concept using cheap FPGAs
 
+### High Level Diagram
+
+![Verification](https://i.imgur.com/EFvMUEt.jpg)&nbsp;
+
 
 ## Project Overview
 

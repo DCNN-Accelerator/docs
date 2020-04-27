@@ -6,18 +6,21 @@ The following outlines verification of the software-hardware emulation. Hardware
 
 Baby Yoda was the first image successfully tested (using 512x512 dimensions).
 
+##Overview
+![Verification](https://i.imgur.com/6aIxdKL.jpg)&nbsp;
+
 ## Emulation
 
 Originally the emulation that was built had packaging issues, so a more efficient method was created in python.
 
-This design offers users a python interface; simply give the PC an image and kernel size, MATLAB is called. The output is acquired from MATLAB and the actual value can be calculated.
+This design offers users a Python interface; simply give the PC an image and kernel size, MATLAB is called. The output is acquired from MATLAB and the actual value can be calculated.
 
 ## Conv_tester
 
 Originally, this was written in MATLAB; however, it was rewritten in Python.
 
 This MATLAB-based implementation is called and our FPGA Convolution algorithm performs image filtering. This script loads an image and a kernel, preprocesses them, and then calls the MATLAB-based implementation
-of our FPGA Convolution algorithm to perform image filtering.  The results are validated using SciPy, and asserts.
+of our FPGA Convolution algorithm to perform image filtering. The results are validated using SciPy, and asserts.
 
 For thorough testing, we loaded in 1000 images from the CIFAR-10 image dataset.
 

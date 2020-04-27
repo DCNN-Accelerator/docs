@@ -6,6 +6,8 @@ The following outlines hardware specifications, block diagrams, pseudo code alon
 
 ## Hardware Specifications
 
+### UART Block
+
 | Item | Value |
 | -------------------- | ----------- |
 | Data Input Rate | 100 kBps |
@@ -13,6 +15,18 @@ The following outlines hardware specifications, block diagrams, pseudo code alon
 | Baud Rate | 1 Mbps |
 | Data Transfer Interface | UART over USB |
 
+### Convolution Block
+
+| Items | Committed Requirement | Stretch Goal |
+| -------------------- | ----------- | ----------- |
+| Input Image Size | 512x512 | 4096x4096 |
+| # of input planes | 3 | Arbitrary |
+| Output image size | Valid | Same, valid, full |
+| # of output planes | 3 | Arbitrary |
+| Kernel Size | 7x7 | Arbitrary, where W*H*D < 512 |
+
+### Same, Full, Valid
+![Verification](https://i.imgur.com/RgoYCFY.jpg)
 
 # Code can start below in this format:
 

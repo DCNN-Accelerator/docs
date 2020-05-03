@@ -32,7 +32,7 @@ Nexys DDR board with Xilinx Artix-7 chip
 | # of input planes | 3 | Arbitrary |
 | Output image size | Valid | Same, valid, full |
 | # of output planes | 3 | Arbitrary |
-| Kernel Size | 7x7 | Arbitrary, where W*H*D < 512 |
+| Kernel Size | 7x7 | Arbitrary, where W * H * D < 512 |
 
 ### Same, Full, Valid
 ![Verification](https://i.imgur.com/RgoYCFY.jpg)

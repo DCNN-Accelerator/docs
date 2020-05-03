@@ -37,6 +37,9 @@ Nexys DDR board with Xilinx Artix-7 chip
 ### Same, Full, Valid
 ![Verification](https://i.imgur.com/RgoYCFY.jpg)
 
+Same: Output image same size as input image (f x f)
+Full : Output image is larger than input image ((f+g) x (f+g))
+Valid: Output image is smaller than input image ((f-g/2) x (f-g/2))
 
 ## FPGA Block Diagram
 

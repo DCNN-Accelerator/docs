@@ -2,8 +2,8 @@
 
 The following outlines hardware specifications, block diagrams, pseudo code along with the results and analysis of the design.
 
-## FPGA Block Diagram
-![Hardware](https://i.imgur.com/U9GAoRu.jpg)
+## High Level Block and Diagram
+![Hardware](https://i.imgur.com/89GHfYj.jpg)
 
 ## Hardware Specifications
 ###FPGA
@@ -42,7 +42,7 @@ Full : Output image is larger than input image ((f+g) x (f+g))
 Valid: Output image is smaller than input image ((f-g/2) x (f-g/2))
 
 ## FPGA Block Diagram
-
+![Hardware](https://i.imgur.com/U9GAoRu.jpg)
 
 ## Example of ILB with Image Window
 ![Hardware](https://i.imgur.com/UFqZOds.gif[/img)

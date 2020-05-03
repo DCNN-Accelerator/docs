@@ -48,8 +48,9 @@ Valid: The output image is smaller than the input image ((f-g/2) x (f-g/2))
 
 ## Example of ILB with Image Window
 ![Hardware](https://i.imgur.com/UFqZOds.gif[/img)
-Add Description of the animation
 
+
+Add Description of the animation
 
 ### Project Website
 Check out our website [here][website] for more information about our project.

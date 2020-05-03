@@ -2,9 +2,18 @@
 
 The following outlines hardware specifications, block diagrams, pseudo code along with the results and analysis of the design.
 
-![Verification](https://i.imgur.com/UFqZOds.gif[/img)
+## FPGA Block Diagram
+![Hardware](https://i.imgur.com/89GHfYj.jpg)
 
 ## Hardware Specifications
+###FPGA
+
+Nexys DDR board with Xilinx Artix-7 chip
+> 160 18-bit DSP slices (up to 16 GOPs throughput at 100 MHz)
+
+> 0.5 Mbytes of block RAM
+
+![Hardware](https://i.imgur.com/yWM6vtT.jpg)
 
 ### UART Block
 
@@ -28,12 +37,14 @@ The following outlines hardware specifications, block diagrams, pseudo code alon
 ### Same, Full, Valid
 ![Verification](https://i.imgur.com/RgoYCFY.jpg)
 
-# Code can start below in this format:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## FPGA Block Diagram
+
+
+## Example of ILB with Image Window
+![Hardware](https://i.imgur.com/UFqZOds.gif[/img)
+Add Description of the animation
+
 
 ### Project Website
 Check out our website [here][website] for more information about our project.

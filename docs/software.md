@@ -2,6 +2,8 @@
 
 The following outlines software specifications, block diagrams, pseudo code and important results and analysis for the project.
 
+## High Level Block Diagram
+![Software](https://i.imgur.com/89GHfYj.jpg)
 
 ## Software Specifications
 
@@ -11,6 +13,8 @@ The following outlines software specifications, block diagrams, pseudo code and 
 | Input kernel data filetype | .csv file |
 | Output data filetype | .jpg image |
 | Supported OS | Windows |
+
+
 
 
 ## Preprocessors

@@ -145,15 +145,17 @@
     $env:PATH = $env:PATH + ";C:\Xilinx\Vivado\2018.2\bin"</p>
 <p>This adds vivado to the environment path and runs Vivado.</p>
 <h2 id="step-3">Step 3</h2>
-<p>run echo $env:PATH
-    ensure that vivado is added into environment path</p>
+<p>Run
+    echo $env:PATH
+Ensure that vivado is added into the environment path</p>
 <h2 id="step-4">Step 4</h2>
 <pre><code>cd C:\Users\user\Downloads\518\BUILD
 </code></pre>
 <p>Change directory into downloaded folder</p>
 <h2 id="step-5">Step 5</h2>
-<p>vivado -mode tcl
-    Opens up Vivado in tcl mode</p>
+<pre><code>vivado -mode tcl
+</code></pre>
+<p>Opens up Vivado in tcl mode</p>
 <h2 id="step-6">Step 6</h2>
 <p>In vivado tcl mode run:
     source top.tcl

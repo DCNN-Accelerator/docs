@@ -9,7 +9,7 @@ Download the folder from GitHub and extract the zip.
 Open powershell and run:
     $env:PATH = $env:PATH + ";C:\Xilinx\Vivado\2018.2\bin"
 
-This adds vivado to the environment path and runs Vivado.
+This adds Vivado to the environment path and runs Vivado.
 
 ## Step 3
 Run

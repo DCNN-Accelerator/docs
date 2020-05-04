@@ -170,10 +170,13 @@
 <p>This script takes in the image and kernel, converting such to fixed point (originally floating point) and sends the data to the FPGA via Powershell.</p>
 <h2 id="serial-interface">Serial Interface</h2>
 <p><img alt="Software" src="https://i.imgur.com/MqUs7q7.png" /></p>
-<p>FPGA Read Write Process
-      - Load bytes into local bytes array
-      - Stream to FPGA using port.write()
-      - Read in serial input buffer using ReadAvailable()</p>
+<p>FPGA Read Write Process</p>
+<pre><code>  - Load bytes into local bytes array
+
+  - Stream to FPGA using port.write()
+
+  - Read in serial input buffer using ReadAvailable()
+</code></pre>
 <h3 id="project-website">Project Website</h3>
 <p>Check out our website <a href="https://kierajcullen.github.io/-dcnn-.github.io/">here</a> for more information about our project.</p>
               

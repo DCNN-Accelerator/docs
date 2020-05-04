@@ -165,11 +165,16 @@
 </tbody>
 </table>
 <h2 id="preprocessors">Preprocessors</h2>
-<p>Discuss Preprocessors</p>
+<p>Discuss Preprocessors (might not be necessary)</p>
 <h2 id="im_load_stream">Im_load_stream</h2>
-<p>This script takes in the image and kernel, converting to fixed point (originally floating point) sends the data to FPGA via Powershell</p>
+<p>This script takes in the image and kernel, converting such to fixed point (originally floating point) and sends the data to the FPGA via Powershell.</p>
 <h2 id="serial-interface">Serial Interface</h2>
-<p><img alt="Verification" src="https://i.imgur.com/TWgfZKo.png" />&nbsp;</p>
+<p><img alt="Software" src="https://i.imgur.com/MqUs7q7.png" /></p>
+<pre><code> FPGA Read Write Process
+     - Load bytes into local bytes array
+     - Stream to FPGA using port.write()
+     - Read in serial input buffer using ReadAvailable()
+</code></pre>
 <h3 id="project-website">Project Website</h3>
 <p>Check out our website <a href="https://kierajcullen.github.io/-dcnn-.github.io/">here</a> for more information about our project.</p>
               

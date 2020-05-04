@@ -84,6 +84,14 @@
         
             <li><a class="toctree-l3" href="#step-2">Step 2</a></li>
         
+            <li><a class="toctree-l3" href="#step-3">Step 3</a></li>
+        
+            <li><a class="toctree-l3" href="#step-4">Step 4</a></li>
+        
+            <li><a class="toctree-l3" href="#step-5">Step 5</a></li>
+        
+            <li><a class="toctree-l3" href="#step-6">Step 6</a></li>
+        
         </ul>
     
 
@@ -130,7 +138,26 @@
                 <h1 id="build-your-own-dcnn">Build Your Own DCNN</h1>
 <p>The following document describes how to get started and build your own deep learning convolutional neural network.</p>
 <h2 id="step-1">Step 1</h2>
+<p>Download the folder from GitHub and extract the zip.
+(Which folder ask ryan)</p>
 <h2 id="step-2">Step 2</h2>
+<p>Open powershell and run:
+    $env:PATH = $env:PATH + ";C:\Xilinx\Vivado\2018.2\bin"</p>
+<p>This adds vivado to the environment path and runs Vivado.</p>
+<h2 id="step-3">Step 3</h2>
+<p>run echo $env:PATH
+    ensure that vivado is added into environment path</p>
+<h2 id="step-4">Step 4</h2>
+<pre><code>cd C:\Users\user\Downloads\518\BUILD
+</code></pre>
+<p>Change directory into downloaded folder</p>
+<h2 id="step-5">Step 5</h2>
+<p>vivado -mode tcl
+    Opens up Vivado in tcl mode</p>
+<h2 id="step-6">Step 6</h2>
+<p>In vivado tcl mode run:
+    source top.tcl
+This builds the entire project for 518 x 518 image convolution (The real image size is 512 x 512 with 0 padding).</p>
 <h3 id="project-website">Project Website</h3>
 <p>Check out our website <a href="https://kierajcullen.github.io/-dcnn-.github.io/">here</a> for more information about our project.</p>
               

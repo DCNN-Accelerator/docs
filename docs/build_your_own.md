@@ -15,24 +15,24 @@ This adds Vivado to the environment path and runs Vivado.
 ## Step 3
 Run
 
-      echo $env:PATH
+    echo $env:PATH
 
 Ensure that vivado is added into the environment path.
 
 ## Step 4
-      cd C:\Users\user\Downloads\518\BUILD
+    cd C:\Users\user\Downloads\518\BUILD
 
 Change directory into the downloaded folder.
 
 ## Step 5
-      vivado -mode tcl
+    vivado -mode tcl
 
 This will open up Vivado in tcl mode.
 
 ## Step 6
 In vivado tcl mode run:
 
-      source top.tcl
+    source top.tcl
 
 This builds the entire project for 518 x 518 image convolution (The real image size is 512 x 512 with 0 padding).
 

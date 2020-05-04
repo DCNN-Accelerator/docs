@@ -12,16 +12,17 @@ Open powershell and run:
 This adds vivado to the environment path and runs Vivado.
 
 ## Step 3
-run echo $env:PATH
-    ensure that vivado is added into environment path
+Run
+    echo $env:PATH
+Ensure that vivado is added into the environment path
 
 ## Step 4
     cd C:\Users\user\Downloads\518\BUILD
 Change directory into downloaded folder
 
 ## Step 5
-vivado -mode tcl
-    Opens up Vivado in tcl mode
+    vivado -mode tcl
+Opens up Vivado in tcl mode
 
 ## Step 6
 In vivado tcl mode run:

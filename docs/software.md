@@ -27,10 +27,10 @@ This script takes in the image and kernel, converting such to fixed point (origi
 ##Serial Interface
 ![Software](https://i.imgur.com/MqUs7q7.png)
 
-     FPGA Read Write Process
-         - Load bytes into local bytes array
-         - Stream to FPGA using port.write()
-         - Read in serial input buffer using ReadAvailable()
+FPGA Read Write Process
+      - Load bytes into local bytes array
+      - Stream to FPGA using port.write()
+      - Read in serial input buffer using ReadAvailable()
 
 ### Project Website
 Check out our website [here][website] for more information about our project.

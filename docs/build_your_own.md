@@ -2,8 +2,8 @@
 The following document describes how to get started and build your own deep learning convolutional neural network.
 
 ## Step 1
-Download the folder from GitHub and extract the zip.
-(Which folder ask ryan)
+Download the folder from GitHub [here][fixthis] and extract the zip.
+[fixthis]: https://github.com/DCNN-Accelerator/hardware/blob/master/518.zip
 
 ## Step 2
 Open powershell and run:

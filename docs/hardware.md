@@ -49,8 +49,7 @@ Valid: The output image is smaller than the input image ((f-g/2) x (f-g/2))
 ## Example of ILB with Image Window
 ![Hardware](https://i.imgur.com/UFqZOds.gif[/img)
 
-
-Add Description of the animation
+On the left you can see the image, each row being a unique color. Moving across the image is the image window, the part of the image that the sum of products will be computing at a given time. The right shows the ILB, which is storing pixel values read in from the UART module that will need to be used again.
 
 ### Project Website
 Check out our website [here][website] for more information about our project.

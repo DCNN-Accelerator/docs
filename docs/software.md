@@ -3,7 +3,7 @@
 The following outlines software specifications, block diagrams, pseudo code and important results and analysis for the project.
 
 ## High Level Block Diagram
-![Software](https://i.imgur.com/89GHfYj.jpg)
+![Software](https://i.imgur.com/q204Ktu.png)
 
 ## Software Specifications
 
@@ -28,8 +28,11 @@ This script takes in the image and kernel, converting such to fixed point (origi
 ![Software](https://i.imgur.com/MqUs7q7.png)
 
 FPGA Read Write Process
+
       - Load bytes into local bytes array
+
       - Stream to FPGA using port.write()
+
       - Read in serial input buffer using ReadAvailable()
 
 ### Project Website

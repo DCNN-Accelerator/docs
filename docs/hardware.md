@@ -3,7 +3,7 @@
 The following outlines hardware specifications, block diagrams, pseudo code along with the results and analysis of the design.
 
 ## High Level Block and Diagram
-![Hardware](https://i.imgur.com/89GHfYj.jpg)
+![Hardware](https://i.imgur.com/q204Ktu.png)
 
 ## Hardware Specifications
 ###FPGA

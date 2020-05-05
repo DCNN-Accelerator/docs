@@ -5,7 +5,7 @@ This document describes the architecture and implementation for an end-to-end 2D
 
 ### High Level Block Diagram
 
-![Verification](https://i.imgur.com/EFvMUEt.jpg)&nbsp;
+![Verification](https://i.imgur.com/q204Ktu.png)&nbsp;
 
 
 ## Project Overview
